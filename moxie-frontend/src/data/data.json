@@ -1,0 +1,23 @@
+
+ [
+    { "key":1,
+        "question" :"Customers tell us what they need",
+        "ans":"Customers answer specific questions about their requirements."
+     },
+    { "key":2,
+        "question" :"We send you matching leads",
+        "ans":"You receive leads that match your preferences instantly by email and on the app."
+     },
+    { "key":3,
+        "question" :"You choose leads you like",
+        "ans":"Get customer contact details right away."
+     },
+    { "key":4,
+        "question" :"You contact the customer",
+        "ans":"Call or email the customer and sell your services."
+     },
+    { "key":5,
+        "question" :"You get hired",
+        "ans":"here's no commission and nothing more to pay."
+     }
+]

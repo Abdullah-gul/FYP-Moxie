@@ -1,0 +1,77 @@
+.dash-main-container{
+
+   
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(249, 249, 250);
+}
+.dash-main-wrapper{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 15%;
+
+   
+}
+.dash-wrapper{
+    width: 60%;
+}
+.d-time{
+    color: rgb(126, 113, 145);
+    margin-top: 10px;
+    margin-bottom:15px ;
+}
+.first-component-m-div{
+    width: 100%;
+    cursor: pointer;
+    /* background-color:rgb(230, 231, 236); */
+   
+   
+}
+.first-component-inner-div{
+    position: relative;
+    overflow-y: hidden;
+    background-color: white;
+}
+
+.dash-c-1{
+    padding: 20px ;   
+    display: flex;
+    border-radius: 10px;
+    background-color:rgb(230, 231, 236);
+    font-weight: 550;
+    font-size: 18px;
+    justify-content: space-between;
+}
+.rotate{
+    transition: transform 0.8s;  
+}
+
+.slide1{
+    text-decoration: underline; 
+}
+
+.slide {
+    opacity: 0;
+    animation: fadeOut 0.7s linear;
+    text-decoration: underline;
+  }
+  
+  @keyframes fadeOut {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+    /* ----------second componenet----------------  */
+    .second-componenet{
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr;
+       gap: 5%;
+       margin-top: 25px;
+         
+    }
+    .s-one{
+       background-color: white;
+    
+       box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+    }

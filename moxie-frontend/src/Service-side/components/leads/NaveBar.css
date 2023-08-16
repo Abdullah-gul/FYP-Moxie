@@ -1,0 +1,42 @@
+.service-side-nave-bar{
+  width: 100%;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 2px solid black;
+}
+.naveWrapper {
+  width: 100%;
+  height: 11vh;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-between;
+  color: black;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  font-size: 19px;
+    
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+
+}
+.right {
+  display: flex;
+  gap: 2rem;
+  padding-right: 10px;
+  justify-content: flex-end;
+}
+
+.service-links{
+  text-decoration: none;
+  color: grey;
+}
+.service-links:focus{
+  color: black;
+}
+
+.logo-container {
+  padding-left: 40px;
+  width: 75px;
+}
+

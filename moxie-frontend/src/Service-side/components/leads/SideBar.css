@@ -1,0 +1,116 @@
+
+
+.leads-page-wrapper {
+  display: flex;
+  place-self:flex-end;
+  height:100%;
+
+}
+.slected-info-from-sidebar {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  overflow-y: scroll;
+  margin-top:204px;
+  /* border: 2px solid purple; */
+}
+.side-bar-wrapper {
+  display: flex;
+  flex-flow: column;
+  width: 450px;
+  margin-top:204px;
+
+  overflow-y: scroll !important;
+  overflow-x: hidden;
+}
+.compro{
+  position: sticky;
+    top: 0;
+    margin-top: 7%;
+   z-index: 1;
+}
+.info-side {
+  display: flex;
+  flex-wrap: wrap;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(249, 249, 250);
+}
+.user-filter {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  border: 1em;
+  height: 60px;
+  background-color: rgb(255, 255, 255);
+
+  /* border: 1px solid black; */
+}
+.side-main-container {
+  display: flex;
+  flex-flow: column wrap;
+  position: relative;
+  /* padding-top: 10px;
+  padding-bottom: 10px; */
+  /* background-color: rgb(252, 252, 252); */
+  /* border: 2px solide grey; */
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  max-height: 340px;
+}
+.line{
+  position: absolute;
+  width: 6px;
+  height: 100%;
+}
+
+.name-time-container {
+  display: flex;
+  font-weight: 500;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  padding-top: 10px;
+  padding-left: 45px;
+  padding-bottom: 10px;
+  padding-right: 30px;
+}
+.category-description {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: column wrap;
+  padding-left: 45px;
+  padding-right: 30px;
+}
+.discription {
+  color: rgb(132, 136, 163);
+  overflow: hidden;
+  padding-top: 5px;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+.details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: rgb(132, 136, 163);
+  font-weight: 500;
+  padding-left: 45px;
+  padding-top: 10px;
+  padding-right: 30px;
+  padding-bottom: 5px;
+}
+.refresh-btn{
+  border: none;
+  color: blue;
+  transition: ease-in-out;
+}
+.refresh-btn:hover{
+  border-bottom: 1px solid blue;
+ 
+}

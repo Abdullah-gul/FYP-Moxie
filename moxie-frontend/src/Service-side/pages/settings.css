@@ -1,0 +1,37 @@
+.dash-settings-main-container{
+    display:block;
+    position: relative;
+    top: 150px;    
+}
+.dash-settings-h{
+    margin-left: 5%;
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.dash-settings-h2{
+    font-size: 25px;
+    font-weight: 500;
+}
+.dash-settings-main-wrapper{
+   
+   width: 70%;
+   margin: 0 auto;
+  
+}
+.dast-s-butn{
+    border: none;
+    background: none;
+    color: #2d7af1;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+.dast-s-butn:hover{
+    color: rgb(13, 85, 196);
+    text-decoration: underline;
+}
+.dash-settings-p{
+    color: rgb(108, 113, 145);
+    margin-top:10px;
+}

@@ -1,0 +1,43 @@
+
+
+.dash-lead-setting-main-wrapper{
+    margin: 20px;
+}
+.dash-lead-setting-para{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom:15px;
+}
+.dash-empty-div{
+    width: 100%;
+    height: 2px;
+    background-color:rgb(230, 231, 236);
+    margin-bottom: 15px;
+}
+.dash-lead-setting-para-1{
+font-size: 25px;
+font-weight: 400;
+}
+.dash-lead-setting-para-2{
+    color: rgb(132, 113, 145);
+    font-size: 15px;
+}
+.service-butn-container{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.dash-servicenames{
+    margin-top: 10px;
+border: 2px solid rgb(230, 231, 236);
+border-radius: 25px;
+width:fit-content;
+display: flex;
+}
+.dash-lead-setting-para-3{
+   
+    font-size: 18px;
+    font-weight: 500;
+    padding: 4px;
+    color: rgb(59, 65, 109);
+}

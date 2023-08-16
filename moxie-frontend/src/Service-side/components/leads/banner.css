@@ -1,0 +1,41 @@
+.banner-container {
+ width: 100%;
+  position: absolute;
+  top:11%;
+  z-index: 5;
+  height: 119px;
+  background-color: rgb(17, 22, 55);
+  color: azure;
+}
+.banner {
+  display: flex;
+  flex-flow: column wrap;
+  padding-top: 25px;
+}
+.b1 {
+  display: flex;
+
+  font-size: larger;
+  font-weight: 50;
+  padding-bottom: 10px;
+  justify-content: flex-start;
+  padding-left: 50px;
+  font-weight: 500;
+  padding-right: 100px;
+}
+.b2 {
+  display: flex;
+  font-size: medium;
+  justify-content: flex-start;
+  padding-left: 50px;
+  font-weight: 400;
+  padding-right: 100px;
+}
+.b3 {
+  display: flex;
+  font-size: medium;
+  justify-content: flex-start;
+  padding-left: 50px;
+  font-weight: 400;
+  padding-right: 100px;
+}

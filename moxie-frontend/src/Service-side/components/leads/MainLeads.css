@@ -1,0 +1,112 @@
+.main-leads-container {
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+  padding-left: 62px;
+  padding-top: 62px;
+}
+.main-leads-wrapper{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.selected-name-time {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 38px;
+  justify-content: space-between;
+  margin-right: 25%;
+}
+.leads-details{
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+ .client-details-work{
+  margin-top: 15px;
+}
+.client-details-adress{
+  margin-top: 6px;
+} 
+.client-details-link{
+font-size: 18px;
+color:grey;
+margin-top: 6px;
+}
+.client-details{
+  margin-top: 6px;
+  display: flex;
+  align-items: center;
+  gap: 10px  ;
+  margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+.client-detail{
+  font-size: 25px;
+  margin-top: 6px;
+}
+.client-detail::after{
+  content: "";
+  width: 50%;
+  display: block;
+  height: 2px;
+  background-color: rgb(229, 229, 229);
+}
+.client-details-box{
+  display: flex;
+  padding: 15px;
+  border: 1px solid rgb(229, 229, 229);
+  width: 40%;
+  align-items: center;
+  justify-content: space-around;
+gap:10px;
+}
+.meter{
+  gap: 5px;
+  display: flex;
+  
+
+}
+.bar{
+  background-color: rgb(17, 22, 55);;
+  height: 30px;
+  width: 12px;
+}
+.buttonsContainer{
+  margin-top: 20px;
+}
+.button{
+  color: #fff!important;
+    box-shadow: 0 3px 6px 0 rgb(45 122 241 / 30%);
+    background-color: #2d7af1;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 3px;
+    border-color: transparent;
+}
+.button:hover{
+  background-color: rgb(24, 97, 209);
+}
+.credits{
+  color: rgb(192, 194, 208);
+}
+.email{
+ 
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+  z-index: 1;
+  position: relative;
+}
+.qans{
+  margin-top: 25px;
+  
+}

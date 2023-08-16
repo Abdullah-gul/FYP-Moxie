@@ -1,0 +1,50 @@
+.learn-main-container{
+    background-color: white;
+    position: relative;
+width: 100%;
+animation: my 2s  ease-in-out;
+    animation-direction:normal;
+
+   
+}
+
+@keyframes my {
+    0% { transform: translateY(-100%); }
+    /* 25% { transform: translateY(-75%); } */
+    /* 50% { transform: translateY(-50%); } */
+    /* 75% { transform: translateY(-25%); } */
+    100% { transform: translateY(0%); }
+  }
+
+.learn-wrapper{
+padding-top: 20px !important;  
+}
+.learn-first-div{
+    padding-left: 15px; 
+    margin-bottom: 15px;
+}
+.key-q{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+
+}
+.l-num{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+}
+.l-para-que{
+    font-size: 25px;
+    font-weight: 550;
+}
+.l-para-ans{
+    color: gray;
+    font-size: 20px;
+}

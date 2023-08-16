@@ -1,0 +1,91 @@
+.main-email-verification{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    /* background-color: rgba(0,0,0,0.5); Black background with opacity */
+}
+.email-veerification-wrapper{
+    width:100%;
+    height:100%;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+}
+.lot-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10%;
+}
+.lot{
+    width: 50px;
+}
+.ev-top{
+    font-size: 25px;
+}
+.inp-container{
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   margin-top: 4%;
+}
+
+
+.evinput{
+
+    padding:1%;
+    font-size: 3vw;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    width: 80%;
+}
+input.evinput:focus{
+    border-bottom: 2px solid blue;
+}
+.fff{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+}
+.evtext{
+    font-size: 18px !important;
+    font-weight: 500;
+}
+.e-vbutn{
+    align-self: flex-start;
+width: 50%;
+   
+    border-radius: 2px;
+background-color:  rgb(45,122,241);
+
+
+}
+.e-vbutn2{
+    
+    width: 30%;
+   
+    border-radius: 2px;
+background-color:  rgb(45,122,241);
+
+
+}
+.evbtn{
+   width: 100%;
+    border: none;
+      background:none;
+      padding: 10px 5px 10px 5px ;
+      color: white;
+      font-size: 20px;
+}
+.evbtn:hover{
+    background-color:  rgb(52, 108, 192); 
+}

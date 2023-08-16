@@ -1,0 +1,94 @@
+.client-landing-page-wrapper{
+    padding-top: 50px;
+  display: flex;
+  justify-content:center;
+  
+}
+.client-page-heading{
+    font-size: 3rem;
+    font-weight: 450 ;
+}
+.client-inputs{
+    display: flex;
+    margin-left: 100px;
+    justify-content:center;
+    margin-top: 25px;
+}
+textarea:focus ,input:focus{
+    outline: none;
+    border: none;
+} 
+
+.inputs-div{
+    width: 15%;
+    border: 1px solid grey;
+    display: flex;
+    align-items:center;
+}
+.inputs{
+  border: none;
+    width: 100%;
+    padding: 15px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.inputs-div.one{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.inputs-div.two{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+input.inputs.ab:focus {
+    border-bottom: 2px solid blue;
+}
+.client-submit-btn-div{
+    margin-left: 15px;
+    box-shadow: 0 6px 20px -15px rgb(0 0 0 / 40%);
+    background-color: rgb(45,122,241);
+    border-radius: 5px;
+
+}
+.submit-btn{
+    background:none;
+    color: white;
+    padding: 16px  50px 16px 50px ;
+    font-size: 20px;
+   border: none;
+ width: 100%;
+}
+.client-submit-btn-div:hover{
+    background-color:  rgb(52, 108, 192);    
+}
+
+.swiper-holder{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 600px;
+    height: 500px;
+    top: 5px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.effect-one{
+    display: inline-block;
+}
+.typed-out{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    animation: typing 1.5s steps(20, end) forwards, blinking .8s infinite;
+    font-size: 1.6rem;
+    width: 0;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  @keyframes blinking {
+    from { border-color: transparent }
+    to { border-color: orange; }
+  }
