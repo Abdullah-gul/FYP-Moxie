@@ -68,7 +68,7 @@ console.log("another soryyy")
     })
       .then((res) => {
         setUser(res.data);
-        // console.log(res);
+        console.log(res.data);
       })
       .catch((err) => {
         console.log(err);

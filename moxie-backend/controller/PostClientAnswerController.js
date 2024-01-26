@@ -1,3 +1,4 @@
+const { json } = require("body-parser");
 const Client = require("../models/Client");
 const axios =require('axios')
 
@@ -10,7 +11,7 @@ class PostClientAnswerController {
      console.log(postalcode)
 var data = Object.entries(mainclient).map(el => JSON.parse(el[1]))
 
-        
+        console.log("answerrrrr",mainclient)
    
       
         if(mainclient === undefined || mainclient.length === 0){
@@ -29,7 +30,7 @@ var data = Object.entries(mainclient).map(el => JSON.parse(el[1]))
             
              
               let weight = data.map(el => parseInt(el.weight) )
-              console.log(address.map(el => JSON.stringify(el)))
+              address.map(el => JSON.stringify(el))
             const answers = new Client({
                 user:user,
                 Service:Service,
@@ -39,13 +40,14 @@ var data = Object.entries(mainclient).map(el => JSON.parse(el[1]))
                 postalcode:postalcode,
                 address: address.map(el => JSON.stringify(el)),
                 qustion_weightage: data.map(el => el.weight),
-                credits : weight.reduce((total,amount)=> total + amount)
+                credits :  weight.reduce((total,amount)=> total + amount)
             })
               console.log(answers)
                
             await answers.save(( err) => {
                 if (err) {
                     console.log(err)
+                    console.log("err dect")
                     return res.status(400).send(err);
                 }
                 else {
